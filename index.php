@@ -38,7 +38,7 @@
                         <div class="product-grid2 card">
                             <div class="product-image2">
                                 <a href="details.php?k=<?php echo $key; ?>">
-                                    <img class="pic-1" src="<?php echo $product['photo1']; ?>">
+                                    <img class="pic-1" src="img/<?php echo $product['photo1']; ?>">
                                     <img class="pic-2" src="img/<?php echo $product['photo2']; ?>">
                                 </a>                        
                                 <a class="add-to-cart" href="details.php?k=<?php echo $key; ?>"><i class="fa fa-cart-plus"></i> Add to cart</a>
